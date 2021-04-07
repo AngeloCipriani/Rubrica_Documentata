@@ -19,6 +19,8 @@ using namespace std;
 
 int main()
 {
+    Contatto rubrica[NUMERO_MASSIMO_CONTATTI];
+
     string percorsoFile;
     cout << "- Inserisci il percorso del file dei dati (es. Dati.dat): ";
     getline(cin, percorsoFile);
@@ -27,8 +29,11 @@ int main()
 
     while(true)
     {
+        LetturaDaFile(percorsoFile, rubrica);
+
         cout << "1) Inserisci contatto" << endl;
-        cout << "2) Esci" << endl;
+        cout << "2) Stampa rubrica" << endl;
+        cout << "3) Esci" << endl;
         cout << "- Inserisci cosa vuoi fare: ";
         int scelta;
         cin >> scelta;
@@ -38,6 +43,8 @@ int main()
         if(scelta == 1)
             InserisciContatto(percorsoFile);
         else if(scelta == 2)
+            StampaRubrica(rubrica);
+        else if(scelta == 3)
             break;
 
         cout << endl << endl;

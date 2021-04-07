@@ -1,8 +1,8 @@
 var indexSectionsWithContent =
 {
-  0: "<cfi",
+  0: "<cfils",
   1: "cf",
-  2: "i",
+  2: "ils",
   3: "<"
 };
 

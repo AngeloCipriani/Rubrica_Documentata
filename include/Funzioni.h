@@ -3,6 +3,8 @@
 #include <iostream>
 #include <fstream>
 
+#define NUMERO_MASSIMO_CONTATTI 200
+
 using namespace std;
 
 struct Contatto
@@ -14,5 +16,8 @@ struct Contatto
 };
 
 void InserisciContatto(string percorsoFile);
+void LetturaDaFile(string percorsoFile, Contatto rubrica[]);
+void StampaContatto(Contatto contatto);
+void StampaRubrica(Contatto rubrica[]);
 
 #endif // FUNZIONI_H

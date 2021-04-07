@@ -4,7 +4,13 @@
 (Si noti che queste non sono funzioni membro.) \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{class_f_u_n_z_i_o_n_i_a049c88381ccb89be31e6f5d3b2583022}{Inserisci\+Contatto}} (string percorso\+File)
-\begin{DoxyCompactList}\small\item\em L\textquotesingle{}utente inserisce un contatto da input che poi viene salvato nel file binario. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em L\textquotesingle{}utente inserisce un contatto da input che poi viene salvato nel file binario. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_f_u_n_z_i_o_n_i_af05473dde06c32128e238b368213f948}{Lettura\+Da\+File}} (string percorso\+File, \mbox{\hyperlink{struct_contatto}{Contatto}} rubrica\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Lettura rubrica dal file binario. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_f_u_n_z_i_o_n_i_aa8925a040c664312dbb03685f11cbc87}{Stampa\+Contatto}} (\mbox{\hyperlink{struct_contatto}{Contatto}} contatto)
+\begin{DoxyCompactList}\small\item\em Stampa le informazioni di un contatto. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_f_u_n_z_i_o_n_i_a6908ca2e591126c5645f029619e677f3}{Stampa\+Rubrica}} (\mbox{\hyperlink{struct_contatto}{Contatto}} rubrica\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Stampa tutti i contatti presenti nella rubrica. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Documentazione dei friend e delle funzioni collegate}
@@ -21,6 +27,53 @@ L\textquotesingle{}utente inserisce un contatto da input che poi viene salvato n
 
 \begin{DoxyParams}{Parametri}
 {\em percorso\+File} & percorso del file binario in cui salvare il contatto \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_f_u_n_z_i_o_n_i_af05473dde06c32128e238b368213f948}\label{class_f_u_n_z_i_o_n_i_af05473dde06c32128e238b368213f948}} 
+\index{FUNZIONI@{FUNZIONI}!LetturaDaFile@{LetturaDaFile}}
+\index{LetturaDaFile@{LetturaDaFile}!FUNZIONI@{FUNZIONI}}
+\doxysubsubsection{\texorpdfstring{LetturaDaFile()}{LetturaDaFile()}}
+{\footnotesize\ttfamily Lettura\+Da\+File (\begin{DoxyParamCaption}\item[{string}]{percorso\+File,  }\item[{\mbox{\hyperlink{struct_contatto}{Contatto}}}]{rubrica\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [related]}}
+
+
+
+Lettura rubrica dal file binario. 
+
+
+\begin{DoxyParams}{Parametri}
+{\em percorso\+File} & percorso del file binario che contiene la rubrica \\
+\hline
+{\em rubrica} & rubrica dove salvare il contenuto letto dal file \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_f_u_n_z_i_o_n_i_aa8925a040c664312dbb03685f11cbc87}\label{class_f_u_n_z_i_o_n_i_aa8925a040c664312dbb03685f11cbc87}} 
+\index{FUNZIONI@{FUNZIONI}!StampaContatto@{StampaContatto}}
+\index{StampaContatto@{StampaContatto}!FUNZIONI@{FUNZIONI}}
+\doxysubsubsection{\texorpdfstring{StampaContatto()}{StampaContatto()}}
+{\footnotesize\ttfamily Stampa\+Contatto (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_contatto}{Contatto}}}]{contatto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [related]}}
+
+
+
+Stampa le informazioni di un contatto. 
+
+
+\begin{DoxyParams}{Parametri}
+{\em contatto} & contatto da stampare \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_f_u_n_z_i_o_n_i_a6908ca2e591126c5645f029619e677f3}\label{class_f_u_n_z_i_o_n_i_a6908ca2e591126c5645f029619e677f3}} 
+\index{FUNZIONI@{FUNZIONI}!StampaRubrica@{StampaRubrica}}
+\index{StampaRubrica@{StampaRubrica}!FUNZIONI@{FUNZIONI}}
+\doxysubsubsection{\texorpdfstring{StampaRubrica()}{StampaRubrica()}}
+{\footnotesize\ttfamily Stampa\+Rubrica (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_contatto}{Contatto}}}]{rubrica\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [related]}}
+
+
+
+Stampa tutti i contatti presenti nella rubrica. 
+
+
+\begin{DoxyParams}{Parametri}
+{\em rubrica} & rubrica contenente tutti i contatti da stampare \\
 \hline
 \end{DoxyParams}
 
