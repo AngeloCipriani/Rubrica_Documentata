@@ -33,7 +33,8 @@ int main()
 
         cout << "1) Inserisci contatto" << endl;
         cout << "2) Stampa rubrica" << endl;
-        cout << "3) Esci" << endl;
+        cout << "3) Ricerca contatto" << endl;
+        cout << "4) Esci" << endl;
         cout << "- Inserisci cosa vuoi fare: ";
         int scelta;
         cin >> scelta;
@@ -45,6 +46,8 @@ int main()
         else if(scelta == 2)
             StampaRubrica(rubrica);
         else if(scelta == 3)
+            RicercaContatto(percorsoFile);
+        else if(scelta == 4)
             break;
 
         cout << endl << endl;

@@ -19,5 +19,6 @@ void InserisciContatto(string percorsoFile);
 void LetturaDaFile(string percorsoFile, Contatto rubrica[]);
 void StampaContatto(Contatto contatto);
 void StampaRubrica(Contatto rubrica[]);
+void RicercaContatto(string percorsoFile);
 
 #endif // FUNZIONI_H

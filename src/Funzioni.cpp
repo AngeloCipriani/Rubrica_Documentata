@@ -84,3 +84,27 @@ void StampaRubrica(Contatto rubrica[])
     }
 }
 
+//! \relates FUNZIONI
+/*! \fn RicercaContatto(string percorsoFile)
+    \brief Ricerca e stampa di un contatto che si trova nella rubrica attraverso il suo codice
+    \param percorsoFile percorso del file binario che contiene la rubrica
+*/
+
+void RicercaContatto(string percorsoFile)
+{
+    fstream file;
+    file.open(percorsoFile, ios::in | ios::binary);
+
+    int codice;
+    cout << "- Inserisci il codice del contatto da cercare: ";
+    cin >> codice;
+
+    Contatto contatto;
+    long posizione = (codice - 1) * sizeof(contatto);
+    file.seekg(posizione);
+    file.read((char*) &contatto, sizeof(contatto));
+
+    StampaContatto(contatto);
+
+    file.close();
+}

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['stampacontatto_5',['StampaContatto',['../class_f_u_n_z_i_o_n_i.html#aa8925a040c664312dbb03685f11cbc87',1,'FUNZIONI']]],
-  ['stamparubrica_6',['StampaRubrica',['../class_f_u_n_z_i_o_n_i.html#a6908ca2e591126c5645f029619e677f3',1,'FUNZIONI']]]
+  ['ricercacontatto_5',['RicercaContatto',['../class_f_u_n_z_i_o_n_i.html#a04e0efc8946b465b154000f05284f3c4',1,'FUNZIONI']]]
 ];

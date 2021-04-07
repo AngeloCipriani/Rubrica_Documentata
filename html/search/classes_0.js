@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['contatto_7',['Contatto',['../struct_contatto.html',1,'']]]
+  ['contatto_8',['Contatto',['../struct_contatto.html',1,'']]]
 ];
