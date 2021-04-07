@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1617360698 source:c:\users\angelo\desktop\angelo\scuola\materie\tpsit\21_04_08_rubrica_documentata\src\funzioni.cpp
+	"Funzioni.h"
+
+1617360686 c:\users\angelo\desktop\angelo\scuola\materie\tpsit\21_04_08_rubrica_documentata\include\funzioni.h
+	<iostream>
+	<fstream>
+
+1617361060 source:c:\users\angelo\desktop\angelo\scuola\materie\tpsit\21_04_08_rubrica_documentata\main.cpp
+	"Funzioni.h"
+	<string>
+
